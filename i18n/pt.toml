@@ -1,0 +1,129 @@
+[learn_more]
+other = "PT:Learn more"
+[featured] 
+other = "PT:Featured sessions"
+[all_sessions] 
+other = "PT:All sessions"
+[more_sessions]
+other = "PT:More sessions"
+[sponsors] 
+other = "PT:Sponsors"
+[become_sponsor]
+other = "PT:Become a sponsor"
+[more_sponsors]
+other = "PT:More sponsors"
+[about]
+other = "PT:About"
+[news]
+other = "PT:News"
+[sessions]
+other = "PT:Sessions"
+[ical_add]
+other = "PT:Add to calendar(*.ics file)"
+[ical_subscribe]
+other = "PT:Subscribe to calendar(webcal)"
+[ical]
+other = "PT:Session schedules calendar"
+[register_now]
+other = "PT:Register now"
+[attendee]
+other = "PT:Attendee"
+[submit_proposal]
+other = "PT:Submit proposal"
+[host_communities]
+other = "PT:Host Communities"
+[more_hosts]
+other = "PT:More host communities"
+[ubuntu_locos]
+other = "PT:Ubuntu Local Communities"
+[other_foss]
+other = "PT:Other Free and Open Source Communities"
+[diamond_sp]
+other = "PT:Diamond Sponsors"
+[gold_sp]
+other = "PT:Gold Sponsors"
+[silver_sp]
+other = "PT:Silver Sponsors"
+[bronze_sp]
+other = "PT:Bronze Sponsors"
+[supporter_sp]
+other = "PT:Supporter Sponsors"
+[infra_sp]
+other = "PT:Event Infrastructure Sponsors"
+[record_sp]
+other = "PT:Video Recording Sponsors"
+[dinner_sp]
+other = "PT:Conference Dinner Sponsor"
+[venue_sp]
+other = "PT:Venue Sponsors"
+[partner_cm]
+other = "PT:Community Partner"
+[name]
+other = "PT:Name"
+[donated_at]
+other = "PT:Purchased donation ticket at"
+[type]
+other = "PT:Type"
+[title]
+other = "PT:Title"
+[language]
+other = "PT:Language"
+[speakers]
+other = "PT:Speakers"
+[session_duration]
+other = "PT:Session duration"
+[details_later]
+other = "PT:Details will be available later"
+[search]
+other = "PT:Search"
+[menu]
+other = "PT:Menu"
+[close_menu]
+other = "PT:Close menu"
+[sponsor_promo_image]
+other = "PT:Get sponsor promotion image"
+[last_update]
+other = "PT:Last update"
+[privacy_policy]
+other = "PT:Privacy policy"
+[tickets]
+other = "PT:Get tickets"
+[gov_partners]
+other = "PT:Government partners"
+[session_promo_image]
+other = "PT:Get session promotion image"
+
+[cat_other]
+other = "PT:Other"
+[cat_desktop]
+other = "PT:Desktop"
+[cat_cloud]
+other = "PT:Cloud and Infrastructure "
+[cat_wsl]
+other = "PT:Windows Subsystem for Linux (WSL)"
+[cat_l10n]
+other = "PT:Localizations, Internationalizations, and Accessibility"
+[cat_iot]
+other = "PT:IoT, Embedded, Robotics, Appliances"
+[cat_packaging]
+other = "PT:Packaging"
+[cat_docs]
+other = "PT:Documentations, QA and Bug triage"
+[cat_sec]
+other = "PT:Security, Compliance and Kernel"
+[cat_data]
+other = "PT:Data and AI"
+[cat_content]
+other = "PT:Content and Design"
+[cat_community]
+other = "PT:Community, Diversity, Local Outreach and Social Context"
+
+[room_intlroom]
+other = "PT:Intl room"
+[room_mid]
+other = "PT:Midsize room 2"
+[room_large]
+other = "PT:Large room"
+
+[join_online]
+other = "PT:Join online"

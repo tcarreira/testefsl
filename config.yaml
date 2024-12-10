@@ -1,0 +1,192 @@
+baseURL: 'https://festa2025.softwarelivre.eu/'
+languageCode: pt-pt
+title: Festa do Software Livre 2025
+theme: ubuconasia
+Paginate: 5
+buildFuture: true
+enableRobotsTXT: true
+enableGitInfo: true
+defaultContentLanguage: pt
+languages:
+  pt:
+    languageName: Português
+    title: Festa do Software Livre 2025
+    weight: 2
+    params:
+      descriptionOnHomepage: >-
+        Celebrando o Software Livre
+      description: 3 a 5 de outubro de 2025 | Polo de uma Universidade, Cidade em Portugal
+      period: 3 a 5 de outubro de 2025 | Polo de uma Universidade, Cidade em Portugal
+      venueName: Polo de uma Universidade
+    menu:
+      main:
+        - identifier: about
+          name: Sobre
+          url: about
+          weight: 10
+        - identifier: venue-travel-group
+          name: Local
+          url: venue-and-travel
+          weight: 20
+        - identifier: venue
+          parent: venue-travel-group
+          name: Local do Evento
+          url: venue-and-travel/venue-and-safety
+          weight: 21
+        - identifier: accommodations
+          parent: venue-travel-group
+          name: Alojamento
+          url: venue-and-travel/accommodations
+          weight: 22
+        - identifier: programs-group
+          name: Programação
+          url: programs
+          weight: 30
+        - identifier: call-for-proposals
+          parent: programs-group
+          name: Pedido de Propostas
+          url: call-for-proposals
+          weight: 31
+        - identifier: sessions
+          parent: programs-group
+          name: Sessões
+          url: sessions
+          weight: 32
+        - identifier: social-events
+          parent: programs-group
+          name: Eventos Sociais
+          url: social-events
+          weight: 33
+        - identifier: sponsors-group
+          name: Apoios e Patrocínios
+          url: sponsors
+          weight: 40
+        - identifier: become-a-sponsor
+          parent: sponsors-group
+          name: Como patrocinar
+          url: become-a-sponsor
+          weight: 41
+        - identifier: sponsors
+          parent: sponsors-group
+          name: Patrocinadores
+          url: sponsors
+          weight: 42
+        - identifier: supporters
+          parent: sponsors-group
+          name: Apoios
+          url: supporters
+          weight: 43
+        - identifier: news
+          name: Notícias
+          url: news
+          weight: 50
+
+  en:
+    languageName: English
+    title: Festa do Software Livre 2025
+    weight: 1
+    params:
+      descriptionOnHomepage: >-
+        Celebrating Open Source
+      description: October 3rd ~ 5th | Somewhere in Portugal
+      period: October 3rd ~ 5th, 2025 | Somewhere in Portugal
+      venueName: Address
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: about
+          weight: 10
+        - identifier: venue-travel-group
+          name: Venue & Travel
+          url: venue-and-travel
+          weight: 20
+        - identifier: venue
+          parent: venue-travel-group
+          name: Venue & Safety
+          url: venue-and-travel/venue-and-safety
+          weight: 21
+        - identifier: accommodations
+          parent: venue-travel-group
+          name: Accomodations
+          url: venue-and-travel/accommodations
+          weight: 22
+        - identifier: programs-group
+          name: Programs
+          url: programs
+          weight: 30
+        - identifier: call-for-proposals
+          parent: programs-group
+          name: Call for proposals
+          url: call-for-proposals
+          weight: 31
+        - identifier: sessions
+          parent: programs-group
+          name: Sessions
+          url: sessions
+          weight: 32
+        - identifier: social-events
+          parent: programs-group
+          name: Social events
+          url: social-events
+          weight: 33
+        - identifier: sponsors-group
+          name: Sponsors/Patrons
+          url: sponsors
+          weight: 40
+        - identifier: become-a-sponsor
+          parent: sponsors-group
+          name: Become a sponsor
+          url: become-a-sponsor
+          weight: 41
+        - identifier: sponsors
+          parent: sponsors-group
+          name: Sponsors
+          url: sponsors
+          weight: 42
+        - identifier: supporters
+          parent: sponsors-group
+          name: Supporters
+          url: supporters
+          weight: 43
+        - identifier: news
+          name: News
+          url: news
+          weight: 50
+
+params:
+  contact: festa@softwarelivre.eu
+  calendarOrganizer: Organizadores da FSL2025
+  calendarUidSuffix: festa2025.softwarelivre.eu
+  facebook: festasofwtarelivre
+  twitter: festasofwtarelivre
+  github: festasofwtarelivre
+  linkedin: festasofwtarelivre
+  mastodon: https://mastodon.social/@FSL
+  repo: https://gitlab.com/ansol/fsl2025
+  cloudflareAnalyticsToken: xxxx
+  copyright:  >-
+    © 2025 Festa do Software Livre 2025 Organizers.
+    Except where otherwise noted, Website source code licensed under MIT, Contents licensed under CC BY 4.0.
+  email: festa@softwarelivre.eu
+  registerURLs:
+    attendee: https://eventyay.com/e/xxxx
+    callForSpeakers: /cfs
+  timetable:
+    dateStart: 2025-10-03T09:00:00+00:00
+    dateEnd: 2025-10-05T12:00:00+00:00
+    timeStart: 2000-01-01T09:00:00+00:00 # Use random date for timeStart param
+  eventInfo:
+    virtualLocationUrl: https://www.youtube.com/@ansol-org
+    streetAddress: "Morada em Portugal"
+    addressLocality: "Cidade em Portugal"
+    postalCode: "0000-000"
+    addressRegion: "Cidade"
+    addressCountry: "PT"
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "RSS", "Calendar", "JSON"]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
