@@ -1,4 +1,4 @@
-baseURL: 'https://festa2025.softwarelivre.eu/'
+baseURL: 'https://testefsl.carreira.pw/'
 languageCode: pt-pt
 title: Festa do Software Livre 2025
 theme: ubuconasia
@@ -157,7 +157,7 @@ languages:
 params:
   contact: festa@softwarelivre.eu
   calendarOrganizer: Organizadores da FSL2025
-  calendarUidSuffix: festa2025.softwarelivre.eu
+  calendarUidSuffix: testefsl.carreira.pw
   facebook: festasofwtarelivre
   twitter: festasofwtarelivre
   github: festasofwtarelivre
