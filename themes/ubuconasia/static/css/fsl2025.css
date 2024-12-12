@@ -1,0 +1,79 @@
+table {
+  display: block;
+  overflow-x: auto;
+}
+
+/* replacing colors
+262626 -> #031936
+
+*/
+.p-button.is-dark {
+  background-color: #031936;
+  border-color: #999;
+  color: #fff;
+}
+
+.p-button--brand:hover {
+  background-color: #031936;
+  border-color: #031936;
+}
+.p-button--brand.is-dark:hover {
+  background-color: #031936;
+  border-color: #031936;
+}
+
+[class*="p-contextual-menu"].is-dark .p-contextual-menu__dropdown {
+  background: #031936;
+}
+.p-checkbox.is-dark .p-checkbox__label::before {
+  background: #031936;
+  border: 1px solid #999;
+}
+.p-radio.is-dark .p-radio__label::before {
+  background: #031936;
+  border: 1px solid #999;
+}
+.p-navigation.is-dark {
+  background-color: #031936;
+}
+.p-navigation.is-dark .p-navigation__dropdown,
+.p-navigation.is-dark .p-navigation__dropdown--right {
+  background-color: #031936;
+}
+.p-search-box.is-dark .p-search-box__input {
+  background-color: #031936;
+  border-color: #999;
+  color: #fff;
+}
+.p-search-box.is-dark .p-search-box__input:active,
+.p-search-box.is-dark .p-search-box__input:focus,
+.p-search-box.is-dark .p-search-box__input:hover,
+.p-search-box.is-dark .p-search-box__input:-internal-autofill-selected,
+.p-search-box.is-dark .p-search-box__input:-webkit-autofill,
+.p-search-box.is-dark .p-search-box__input:-webkit-autofill:hover,
+.p-search-box.is-dark .p-search-box__input:-webkit-autofill:focus {
+  background-color: #031936 !important;
+  border-color: #999 !important;
+}
+.p-side-navigation.is-dark .p-side-navigation__drawer,
+[class*="p-side-navigation--"].is-dark .p-side-navigation__drawer {
+  background: #031936;
+}
+.p-side-navigation.is-dark .p-side-navigation__drawer-header,
+[class*="p-side-navigation--"].is-dark .p-side-navigation__drawer-header {
+  background: #031936;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.p-panel.is-dark {
+  background: #031936;
+  color: #fff;
+}
+.p-panel.is-dark .p-panel__header.is-sticky {
+  background: #031936;
+}
+
+/**/
+.p-strip--accent {
+  background-color: #031936;
+  color: #fff;
+}
